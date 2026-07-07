@@ -78,9 +78,13 @@ img {
 	width: 70%;
 }
 
-.obras, .obras ul {
-	list-style: none;
+.obras {
+	margin: 1rem, 1rem;
 	text-align: center;
+}
+
+ul {
+	list-style: none;
 }
 
 footer {
