@@ -12,7 +12,7 @@
 <body>
 	<div id="contenedor">
 		<header class="centrado">
-			<h1 class="centrado">Ejercicio</h1>
+			<h1>Ejercicio</h1>
 			<nav>
 				<ul>
 					<li><a href="index.html">Inicio</a></li>
@@ -23,11 +23,51 @@
 		</header>
 
 		<main>
-		<div id="contenedor"></div>			
+			<form >
+				<fieldset id="cantObras">
+					<legend>Ingreso de datos</legend>
+						<label for="cantidadObras">Cantidad de obras:</label>
+						<input type="number" name="cantidad" id="cantidad">
+							<br>
+						<button type="button" id="cargarCantidad">Cargar Cantidad</button>
+				</fieldset>
+
+				<fieldset id="obra" disabled>
+					<legend>Obra</legend>
+						<label for="titulo">Título:</label>
+						<input type="text" name="titulo" id="titulo">
+							<br>
+						<label for="cantLuces">Cantidad de luces x día:</label>
+						<input type="number" name="cantLuces" id="cantLuces">
+							<br>
+
+						<label for="horasXdia">Cantidad de horas de funcionamiento x día:</label>
+						<input type="number" name="horasXdia" id="horasXdia">
+							<br>
+						<button type="button" id="cargarObra">Cargar Obra</button>
+				</fieldset>
+
+				<fieldset id="consumoKwh" disabled>
+					<legend>Consumo eléctrico:</legend>
+					<label for="kwhXhora">Kwh/hr de cada luz:</label>
+					<input type="number" name="kwhXhora" id="kwhXhora">
+						<br>
+					<label for="costoKwh">Costo del Kwh $:</label>
+					<input type="number" name="costoKwh" id="costoKwh">
+						<br>
+					<button type="button" id="cargarConsumo">Cargar Consumo</button>
+				</fieldset>
+
+				<button type="button" id="enviarFormulario" disabled>Enviar Datos Cargados</button>
+			</form>
+
+			<button type="button" id="reset">Recargar Página</button>
+
+			<div id="resumen"></div>
 		</main>
 
 		<footer class="centrado">
-				<p>Para contactarse escribir a <a href="refik@artedigital.com">refik@artedigital.com</a></p>
+				<p>Para contactarse escribir a <a href="rafael@artedigital.com">rafael@artedigital.com</a></p>
 		</footer>
 	</div>
 
