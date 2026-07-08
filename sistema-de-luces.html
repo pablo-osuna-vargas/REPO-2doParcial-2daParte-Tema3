@@ -12,28 +12,34 @@
 <body>
 	<div id="contenedor">
 		<header class="centrado">
-			<h1>Ejercicio</h1>
+			<h1>Sistema de luces</h1>
 			<nav>
 				<ul>
 					<li><a href="index.html">Inicio</a></li>
 					<li><a href="interactividad-espacio-arte.html">Interactividad, espacio público y arte tecnológico</a></li>
-					<li><a href="ejercicio.html">Ejercicio</a></li>
+					<li><a href="sistema-de-luces.html">Sistema de luces</a></li>
 				</ul>
 			</nav>
 		</header>
 
 		<main>
-			<form >
+			<div id="notaMontaje">
+				<p>El sistema de datos en esta página nos permite agilizar el montaje de uno de los recursos más importantes de la obra de Rafael:</p> 
+				<p><strong><spam>LUCES</spam></strong></p> 
+				<p>Este sistema guardará datos sensibles, por esta razón pedimos precisión en los mismos. Gracias a esta información podemos adelantarnos a cualquier escenario y acortar los tiempos de espera. Gracias</p>
+				<p>Equipo de montaje</p>
+			</div>
+			<form>
 				<fieldset id="cantObras">
 					<legend>Ingreso de datos</legend>
-						<label for="cantidadObras">Cantidad de obras:</label>
+						<label for="cantidadObras">Cantidad de obras a montar:</label>
 						<input type="number" name="cantidad" id="cantidad">
 							<br>
 						<button type="button" id="cargarCantidad">Cargar Cantidad</button>
 				</fieldset>
 
 				<fieldset id="obra" disabled>
-					<legend>Obra</legend>
+					<legend>Datos específicos de cada Obra</legend>
 						<label for="titulo">Título:</label>
 						<input type="text" name="titulo" id="titulo">
 							<br>
@@ -71,7 +77,7 @@
 		</footer>
 	</div>
 
-	<script src="js/script-ejercicio.js"></script>
+	<script src="js/script-sistema.js"></script>
 
 </body>
 </html>
