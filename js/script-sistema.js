@@ -133,7 +133,7 @@ function calcular() {
 	let porcentajeMas20 = (mas20 * 100) / cantidad;
 	
 	salida.innerHTML = 
-	`<h4>Resumen</h4>
+	`<h2>Resumen</h2>
 	<ul>
 		<li>Consumo diario: Kwh${totalKwhDiario}</li>
 		<li>Promedio de consumo: Kwh${consumoPromedio}</li>
