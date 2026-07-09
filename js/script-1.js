@@ -22,8 +22,7 @@ clickBody.addEventListener("click", function(){
 	let datoElegido = Math.floor(Math.random() * arrayDatos.length);
 	datoCurioso = arrayDatos[datoElegido];
 	divDato.style.display = "block";
-	divDato.style.background = "rgba(0, 100, 0, 0.6)";
-	divDato.style.color = "whitesmoke";
+	divDato.style.background = "rgba(20, 20, 20, 1.0)";
 	divDato.style.textAlign = "center";
 	divDato.innerHTML = `<p>${datoCurioso}</p>`;
 });

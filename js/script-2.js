@@ -40,7 +40,7 @@ let botonVerGaleria = document.querySelector("#verGaleria");
 botonVerGaleria.addEventListener("click", function(e){
 e.preventDefault();
 botonVerGaleria.innerText = "cliqueá de nuevo para pasar las imágenes >>>";
-botonVerGaleria.style.backgroundColor = "rgba(100, 0, 100, 0.7)";
+botonVerGaleria.style.backgroundColor = "rgba(140, 130, 120, 0.5)";
 botonVerGaleria.style.color = "whitesmoke";
 divGaleria.innerHTML = ""; //vacío la galería para que no se pisen las imágenes //
 	let obraElegida = Math.floor(Math.random() * arrayObras.length);
