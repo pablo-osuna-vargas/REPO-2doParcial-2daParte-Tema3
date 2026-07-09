@@ -30,7 +30,7 @@ botonCantidad.addEventListener("click", function(e){
 })
 
 
-// 2.botón cargar obra, habilita visitas //
+// 2.botón cargar obra, habilita consumo eléctrico //
 botonCargarObra.addEventListener("click", function(e){
 	e.preventDefault();
 	let titulo = document.querySelector("#titulo").value;

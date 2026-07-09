@@ -55,13 +55,19 @@ body {
 }
 
 /* position usado únicamente para un aviso fijo */
-#avisoDato {
+.dato {
 	padding: 1rem;
 	position: fixed;
 	color: rgba(20, 20, 20, 1.0);
 	background-color: rgba(250, 230, 160, 1.0);
 	bottom: 9rem;
 	left: 1rem;
+}
+
+#datoCurioso {
+	position: fixed;
+	top: 9rem;
+	right: 1rem;
 }
 
 /* títulos y destacados con Barlow */
