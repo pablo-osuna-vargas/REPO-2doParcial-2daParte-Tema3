@@ -14,6 +14,7 @@ let arrayDatos = [
 				];
 
 let datoCurioso = "";
+
 let divDato = document.querySelector("#datoCurioso");
 
 let clickBody = document.querySelector("body");

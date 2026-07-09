@@ -36,15 +36,17 @@ let arrayObras = [
 let obra = "";
 let divGaleria = document.querySelector("#galeria");
 
-let botonVerGaleria = document.querySelector("#verGaleria"); // crear boton en HTML id="verGaleria" //
+let botonVerGaleria = document.querySelector("#verGaleria");
 botonVerGaleria.addEventListener("click", function(e){
 e.preventDefault();
-divGaleria.innerHTML = ""; //vaciar galería para que no se pisen las imagenes //
-
+botonVerGaleria.innerText = "cliqueá de nuevo para pasar las imágenes >>>";
+botonVerGaleria.style.backgroundColor = "rgba(100, 0, 100, 0.7)";
+botonVerGaleria.style.color = "whitesmoke";
+divGaleria.innerHTML = ""; //vacío la galería para que no se pisen las imágenes //
 	let obraElegida = Math.floor(Math.random() * arrayObras.length);
 		obra = arrayObras[obraElegida];
 		divGaleria.style.display = "block";
-		divGaleria.innerHTML = `<p>${obra.titulo}, ${obra.año}</p>
-								<br>
-								<img src="${obra.imagen}"></img>`;
+		divGaleria.innerHTML = 
+			`<h4>${obra.titulo} - ${obra.año}</h4>
+			<img src="${obra.imagen}"></img>`;
 });
