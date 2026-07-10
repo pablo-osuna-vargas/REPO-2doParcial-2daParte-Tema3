@@ -46,12 +46,13 @@ body {
 	display: none;
 }
 
+.centrado {
+	text-align: center;
+}
+
 .espaciado {
 	margin: 1rem;
 	padding: 1rem;
-}
-.centrado {
-	text-align: center;
 }
 
 /* position usado únicamente para un aviso fijo */
@@ -134,6 +135,7 @@ button {
 #resumen {
 	margin: 1rem ;
 	border: solid 2px whitesmoke;
+	color: rgba(190, 180, 110, 0.9);
 	background: rgba(100, 0, 100, 0.3);
 }
 
