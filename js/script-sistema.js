@@ -14,6 +14,7 @@ let botonCargarConsumo = document.querySelector("#cargarConsumo");
 let botonEnviarForm = document.querySelector("#enviarFormulario");
 let botonRecargarPag = document.querySelector("#reset");
 
+
 // 1.botón cargar cantidad, habilita obra //
 botonCantidad.addEventListener("click", function(e){
 	e.preventDefault();
@@ -107,6 +108,7 @@ botonEnviarForm.addEventListener("click", function (e){
 	calcular();
 	salida.style.display = "block";
 })
+
 
 // aqui la definicion de function //
 function calcular() {
